@@ -1,0 +1,163 @@
+html {
+  font-family: sans-serif;
+}
+
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lastresult {
+  color: white;
+  padding: 3px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 340px;
+  background-color: rgba(255, 96, 189, 0.649);
+  border-radius: 1em;
+  padding: 1em;
+  width: 50%;
+  color: rgba(255, 255, 255, 0.897);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container .header {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.container .form {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .resultParas {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(0, 0, 255, 0.182);
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.guessSubmit, .reset__btn {
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 96, 189, 0.949);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.6em;
+}
+
+.guessSubmit:hover, .reset__btn:hover {
+  background-color: rgba(255, 96, 189, 0.649);
+}
+
+.reset__btn {
+  background-color: rgba(255, 96, 96, 0.949);
+}
+
+.reset__btn:hover {
+  background-color: rgba(255, 96, 96, 0.649);
+}
+
+.guess__field {
+  border-radius: 1.2em;
+  background-color: rgba(53, 5, 33, 0.649);
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.4em 1em;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 850px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .elem {
+    margin: 0.5em 0;
+  }
+  .elem:last-child {
+    margin-bottom: 2em;
+  }
+  .container {
+    margin-bottom: 5em;
+  }
+}
+
+.last__result {
+  border-radius: 1em;
+  padding: 1em 3em;
+}
+/*# sourceMappingURL=style.css.map */

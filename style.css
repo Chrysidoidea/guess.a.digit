@@ -2,7 +2,7 @@ html {
   font-family: sans-serif;
 }
 
-* {
+h1, p {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -100,10 +100,6 @@ body {
 
 .guessSubmit, .reset__btn {
   color: white;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   font-weight: bold;
   text-transform: uppercase;
   background-color: rgba(255, 96, 189, 0.949);
